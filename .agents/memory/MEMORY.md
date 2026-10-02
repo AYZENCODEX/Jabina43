@@ -1,0 +1,3 @@
+- [Supabase schema isolation](supabase-schema-isolation.md) — Drizzle introspection must stay scoped to public when provider-managed schemas are present.
+- [Imported workspace startup](imported-workspace-startup.md) — Install the frozen lockfile and provide vault secrets before starting the imported app.
+- [Vault certification evidence](vault-certification-evidence.md) — Static VLT gates must not be presented as provider-backed production or recovery proof.

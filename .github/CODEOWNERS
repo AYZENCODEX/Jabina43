@@ -1,0 +1,7 @@
+# Platform and security changes require platform ownership.
+* @ayzen/platform
+/config/ @ayzen/security
+/infrastructure/ @ayzen/platform
+/packages/ @ayzen/platform
+/services/ @ayzen/platform
+/apps/ @ayzen/platform

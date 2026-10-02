@@ -1,0 +1,1164 @@
+{
+  "schemaVersion": 1,
+  "phase": "VLT-01",
+  "timestamp": "2026-10-01T18:25:00.000Z",
+  "totalRepositoryFiles": 3067,
+  "totalBytes": 26521826,
+  "totalLOC": 536875,
+  "vaultBaseline": {
+    "fileCount": 556,
+    "loc": 177214,
+    "totalBytes": 9057339,
+    "routeCount": 403,
+    "serviceCount": 15,
+    "libCount": 45,
+    "repositoryCount": 8,
+    "securityFileCount": 162,
+    "cryptoFileCount": 212,
+    "testCount": 2,
+    "files": [
+      ".agents/memory/vault-certification-evidence.md",
+      "artifacts/api-server/src/lib/vault-backup-alerts.ts",
+      "artifacts/api-server/src/lib/vault-backup-audit.ts",
+      "artifacts/api-server/src/lib/vault-backup-cloud.ts",
+      "artifacts/api-server/src/lib/vault-backup-delivery.ts",
+      "artifacts/api-server/src/lib/vault-backup-envelope.ts",
+      "artifacts/api-server/src/lib/vault-backup-key-rotation-cron.ts",
+      "artifacts/api-server/src/lib/vault-backup-schedule-cron.ts",
+      "artifacts/api-server/src/lib/vault-crypto.ts",
+      "artifacts/api-server/src/lib/vault-health-cron.ts",
+      "artifacts/api-server/src/lib/vault-health-scan.ts",
+      "artifacts/api-server/src/lib/vault-health.ts",
+      "artifacts/api-server/src/lib/vault-pin-guard.ts",
+      "artifacts/api-server/src/lib/vault-snapshot-extra.ts",
+      "artifacts/api-server/src/lib/vault-snapshot-restore.ts",
+      "artifacts/api-server/src/lib/vault-snapshot-trash-cron.ts",
+      "artifacts/api-server/src/lib/vault-snapshot-trash-purge.ts",
+      "artifacts/api-server/src/lib/vault-trash-cron.ts",
+      "artifacts/api-server/src/lib/vault-trash-purge.ts",
+      "artifacts/api-server/src/routes/game-entries.ts",
+      "artifacts/api-server/src/routes/kyc-data-entities.ts",
+      "artifacts/api-server/src/routes/kyc.ts",
+      "artifacts/api-server/src/routes/local-accounts.ts",
+      "artifacts/api-server/src/routes/marketplace-vault.ts",
+      "artifacts/api-server/src/routes/vault-attachments.ts",
+      "artifacts/api-server/src/routes/vault-backup-cloud.ts",
+      "artifacts/api-server/src/routes/vault-backup-key.ts",
+      "artifacts/api-server/src/routes/vault-backup-schedule.ts",
+      "artifacts/api-server/src/routes/vault-entity-links.ts",
+      "artifacts/api-server/src/routes/vault-migration.ts",
+      "artifacts/api-server/src/routes/vault-reauth.ts",
+      "artifacts/api-server/src/routes/vault-security.ts",
+      "artifacts/api-server/src/routes/vault-shares.ts",
+      "artifacts/api-server/src/routes/vault-snapshot.ts",
+      "artifacts/api-server/src/routes/vault.ts",
+      "artifacts/api-server/src/vault/api/index.ts",
+      "artifacts/api-server/src/vault/application/entity/activity-feed.ts",
+      "artifacts/api-server/src/vault/application/entity/activity.ts",
+      "artifacts/api-server/src/vault/application/entity/admin.ts",
+      "artifacts/api-server/src/vault/application/entity/analytics.ts",
+      "artifacts/api-server/src/vault/application/entity/bulk.ts",
+      "artifacts/api-server/src/vault/application/entity/create.ts",
+      "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+      "artifacts/api-server/src/vault/application/entity/links.ts",
+      "artifacts/api-server/src/vault/application/entity/receipt.ts",
+      "artifacts/api-server/src/vault/application/entity/representation.ts",
+      "artifacts/api-server/src/vault/application/entity/update.ts",
+      "artifacts/api-server/src/vault/application/game/entries.ts",
+      "artifacts/api-server/src/vault/application/game/listing.ts",
+      "artifacts/api-server/src/vault/application/game/marketplace.ts",
+      "artifacts/api-server/src/vault/application/health.ts",
+      "artifacts/api-server/src/vault/application/index.ts",
+      "artifacts/api-server/src/vault/application/kyc/data-entities.ts",
+      "artifacts/api-server/src/vault/application/kyc/enrollment.ts",
+      "artifacts/api-server/src/vault/application/kyc/entries.ts",
+      "artifacts/api-server/src/vault/application/kyc/exchange.ts",
+      "artifacts/api-server/src/vault/application/local-account/accounts.ts",
+      "artifacts/api-server/src/vault/application/local-account/bridge.ts",
+      "artifacts/api-server/src/vault/application/local-account/bulk.ts",
+      "artifacts/api-server/src/vault/application/local-account/receipt.ts",
+      "artifacts/api-server/src/vault/application/local-account/value.ts",
+      "artifacts/api-server/src/vault/crypto/field-encryption.ts",
+      "artifacts/api-server/src/vault/crypto/seed-phrase.ts",
+      "artifacts/api-server/src/vault/domain/entity-links.ts",
+      "artifacts/api-server/src/vault/domain/entity/calculations.ts",
+      "artifacts/api-server/src/vault/domain/entity/fields.ts",
+      "artifacts/api-server/src/vault/domain/game.ts",
+      "artifacts/api-server/src/vault/domain/kyc-values.ts",
+      "artifacts/api-server/src/vault/domain/kyc.ts",
+      "artifacts/api-server/src/vault/domain/local-account-values.ts",
+      "artifacts/api-server/src/vault/domain/local-account.ts",
+      "artifacts/api-server/src/vault/domain/secret-fields.ts",
+      "artifacts/api-server/src/vault/domain/serial.ts",
+      "artifacts/api-server/src/vault/index.ts",
+      "artifacts/api-server/src/vault/infrastructure/index.ts",
+      "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+      "artifacts/api-server/src/vault/infrastructure/repositories/game-repository.ts",
+      "artifacts/api-server/src/vault/infrastructure/repositories/kyc-consumer-repository.ts",
+      "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+      "artifacts/api-server/src/vault/infrastructure/repositories/kyc-repository.ts",
+      "artifacts/api-server/src/vault/infrastructure/repositories/local-account-consumer-repository.ts",
+      "artifacts/api-server/src/vault/infrastructure/repositories/local-account-repository.ts",
+      "artifacts/api-server/src/vault/security/entity-ownership.ts",
+      "artifacts/api-server/src/vault/security/game-ownership.ts",
+      "artifacts/api-server/src/vault/security/kyc-ownership.ts",
+      "artifacts/api-server/src/vault/security/local-account-ownership.ts",
+      "artifacts/astra-extension/background/vault.js",
+      "artifacts/ayzen/src/components/game-entries.tsx",
+      "artifacts/ayzen/src/components/kyc-entries.tsx",
+      "artifacts/ayzen/src/components/layout/vault-sidebar.tsx",
+      "artifacts/ayzen/src/components/local-accounts.tsx",
+      "artifacts/ayzen/src/components/vault/attachments-section.tsx",
+      "artifacts/ayzen/src/components/vault/data-entity-picker.tsx",
+      "artifacts/ayzen/src/components/vault/entity-gas-tab.tsx",
+      "artifacts/ayzen/src/components/vault/entity-pin-gate.tsx",
+      "artifacts/ayzen/src/components/vault/gas-chain-row.tsx",
+      "artifacts/ayzen/src/components/vault/gas-risk-badge.tsx",
+      "artifacts/ayzen/src/components/vault/health-checklist.tsx",
+      "artifacts/ayzen/src/components/vault/kyc-entity-enroll-dialog.tsx",
+      "artifacts/ayzen/src/components/vault/linked-entities-section.tsx",
+      "artifacts/ayzen/src/components/vault/local-entity-picker.tsx",
+      "artifacts/ayzen/src/components/vault/manage-shares-dialog.tsx",
+      "artifacts/ayzen/src/components/vault/math-captcha.tsx",
+      "artifacts/ayzen/src/components/vault/pin-input.tsx",
+      "artifacts/ayzen/src/components/vault/share-entity-dialog.tsx",
+      "artifacts/ayzen/src/components/vault/totp-card.tsx",
+      "artifacts/ayzen/src/components/vault/vault-auth.tsx",
+      "artifacts/ayzen/src/components/vault/vault-loading-intro.tsx",
+      "artifacts/ayzen/src/components/vault/vault-pin-prompt.tsx",
+      "artifacts/ayzen/src/components/vault/vault-unlock-gate.tsx",
+      "artifacts/ayzen/src/config/columns/local-account-view.ts",
+      "artifacts/ayzen/src/config/fields/kyc-create.ts",
+      "artifacts/ayzen/src/config/fields/kyc-data-create.ts",
+      "artifacts/ayzen/src/config/fields/local-account-buy.ts",
+      "artifacts/ayzen/src/config/fields/local-account-create.ts",
+      "artifacts/ayzen/src/config/vault-game.ts",
+      "artifacts/ayzen/src/config/vault-kyc.ts",
+      "artifacts/ayzen/src/config/vault-local.ts",
+      "artifacts/ayzen/src/lib/vault-attachments-api.ts",
+      "artifacts/ayzen/src/lib/vault-ban-api.ts",
+      "artifacts/ayzen/src/lib/vault-chains-api.ts",
+      "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+      "artifacts/ayzen/src/lib/vault-field-api.ts",
+      "artifacts/ayzen/src/lib/vault-key-validation-api.ts",
+      "artifacts/ayzen/src/lib/vault-lock.ts",
+      "artifacts/ayzen/src/lib/vault-mail-items.ts",
+      "artifacts/ayzen/src/lib/vault-migration-api.ts",
+      "artifacts/ayzen/src/lib/vault-security-api.ts",
+      "artifacts/ayzen/src/lib/vault-snapshot-api.ts",
+      "artifacts/ayzen/src/pages/admin/kyc.tsx",
+      "artifacts/ayzen/src/pages/admin/team-vault.tsx",
+      "artifacts/ayzen/src/pages/admin/vault.tsx",
+      "artifacts/ayzen/src/pages/receipt/vault-category.tsx",
+      "artifacts/ayzen/src/pages/user/marketplace-vault.tsx",
+      "artifacts/ayzen/src/pages/user/vault-2fa-category.tsx",
+      "artifacts/ayzen/src/pages/user/vault-2fa-entity.tsx",
+      "artifacts/ayzen/src/pages/user/vault-activity.tsx",
+      "artifacts/ayzen/src/pages/user/vault-backup-entity.tsx",
+      "artifacts/ayzen/src/pages/user/vault-backup.tsx",
+      "artifacts/ayzen/src/pages/user/vault-banned.tsx",
+      "artifacts/ayzen/src/pages/user/vault-compliance.tsx",
+      "artifacts/ayzen/src/pages/user/vault-emergency-access.tsx",
+      "artifacts/ayzen/src/pages/user/vault-enrollment-entity.tsx",
+      "artifacts/ayzen/src/pages/user/vault-enrollment-linked-detail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-enrollment-linked.tsx",
+      "artifacts/ayzen/src/pages/user/vault-enrollment-overview.tsx",
+      "artifacts/ayzen/src/pages/user/vault-enrollment-project-detail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-enrollment-project.tsx",
+      "artifacts/ayzen/src/pages/user/vault-entity-access.tsx",
+      "artifacts/ayzen/src/pages/user/vault-entity-dashboard.tsx",
+      "artifacts/ayzen/src/pages/user/vault-entity-detail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-hub.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-dashboard.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-data-detail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-data-list.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-data-overview.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-data-unused.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-data-used.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-detail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-kyc-enrolled.tsx",
+      "artifacts/ayzen/src/pages/user/vault-local-dashboard.tsx",
+      "artifacts/ayzen/src/pages/user/vault-local-detail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-mail-category.tsx",
+      "artifacts/ayzen/src/pages/user/vault-mail-entity.tsx",
+      "artifacts/ayzen/src/pages/user/vault-mail-inbox.tsx",
+      "artifacts/ayzen/src/pages/user/vault-mail-message-detail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-mail-message.tsx",
+      "artifacts/ayzen/src/pages/user/vault-mail.tsx",
+      "artifacts/ayzen/src/pages/user/vault-migration.tsx",
+      "artifacts/ayzen/src/pages/user/vault-security.tsx",
+      "artifacts/ayzen/src/pages/user/vault-shared-entity.tsx",
+      "artifacts/ayzen/src/pages/user/vault-shared.tsx",
+      "artifacts/ayzen/src/pages/user/vault-snapshot.tsx",
+      "artifacts/ayzen/src/pages/user/vault-trash.tsx",
+      "artifacts/ayzen/src/pages/user/vault-wallet-hub.tsx",
+      "artifacts/ayzen/src/pages/user/vault-wallet-seed.tsx",
+      "artifacts/ayzen/src/pages/user/vault.tsx",
+      "config/antas/vault-roadmap.json",
+      "docs/antas/vault/api-contract-inventory.md",
+      "docs/antas/vault/architecture.md",
+      "docs/antas/vault/compatibility-freeze.md",
+      "docs/antas/vault/db-touch-inventory.md",
+      "docs/antas/vault/event-contract-inventory.md",
+      "docs/antas/vault/file-migration-map.md",
+      "docs/antas/vault/gap/VLT-GAP-03-B-validator-patch.diff",
+      "docs/antas/vault/module-ownership.md",
+      "docs/api/local-account.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_ACCOUNT_EXTRAS.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_CLOUD_DELIVERY.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_EMAIL_ACCOUNTS.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_EMAIL_ACCOUNTS_RESTORE.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_EMERGENCY_ACCESS.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_ENTITY_COVERAGE.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_ENTITY_LINKS.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_EXTERNAL_MAIL_CACHE.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_HARDENING_ROUND2.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_HARDENING_ROUND3.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_HARDENING_ROUND4.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_HARDENING_ROUND5.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_HARDENING_ROUND6.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_HARDENING_ROUND7.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_MAILBOX_REPUTATION.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_ROUND8_AND_15T.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_SCHEDULE_INTEGRATION.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_STORE.md",
+      "docs/changes/CHANGES_VAULT_BACKUP_TEAM_EARNING.md",
+      "docs/identity/local-account.md",
+      "docs/security/local-account.md",
+      "lib/api-zod/src/generated/types/vaultEntry.ts",
+      "lib/api-zod/src/generated/types/vaultEntryInput.ts",
+      "lib/api-zod/src/generated/types/vaultEntryUpdate.ts",
+      "lib/api-zod/src/src/generated/types/vaultEntry.ts",
+      "lib/api-zod/src/src/generated/types/vaultEntryInput.ts",
+      "lib/api-zod/src/src/generated/types/vaultEntryUpdate.ts",
+      "lib/db/src/schema/vault-attachments.ts",
+      "lib/db/src/schema/vault-backup-audit-log.ts",
+      "lib/db/src/schema/vault-backup-cloud-connections.ts",
+      "lib/db/src/schema/vault-backup-deliveries.ts",
+      "lib/db/src/schema/vault-backup-schedules.ts",
+      "lib/db/src/schema/vault-security.ts",
+      "lib/db/src/schema/vault-snapshots.ts",
+      "lib/db/src/schema/vault.ts",
+      "lib/db/src/src/schema/vault-security.ts",
+      "lib/db/src/src/schema/vault.ts",
+      "migrations/013_vault_password.sql",
+      "migrations/014_vault_auth_step_policy.sql",
+      "migrations/016_vault_attachments.sql",
+      "migrations/055_ayzen_vault_snapshots.sql",
+      "migrations/057_ayzen_vault_backup_extended.sql",
+      "migrations/058_ayzen_vault_backup_coverage_expansion.sql",
+      "migrations/059_ayzen_vault_backup_wallet_hub.sql",
+      "migrations/060_ayzen_vault_backup_activity_trace.sql",
+      "migrations/061_ayzen_vault_backup_entity_coverage.sql",
+      "migrations/062_ayzen_vault_backup_emergency_access.sql",
+      "migrations/063_ayzen_vault_backup_cloud_connections.sql",
+      "migrations/064_ayzen_vault_backup_account_extras.sql",
+      "migrations/065_ayzen_vault_backup_team_earning.sql",
+      "migrations/066_ayzen_vault_backup_schedule_lock.sql",
+      "migrations/072_ayzen_vault_snapshots_soft_delete.sql",
+      "migrations/073_ayzen_vault_backup_audit_log.sql",
+      "migrations/074_ayzen_vault_backup_system_coverage.sql",
+      "migrations/075_ayzen_vault_backup_email_accounts.sql",
+      "migrations/076_ayzen_vault_backup_mailbox_reputation.sql",
+      "migrations/077_ayzen_vault_backup_external_mail_cache.sql",
+      "migrations/beta/apps/vault/manifest.json",
+      "reports/antas/vault/00/A-evidence.json",
+      "reports/antas/vault/00/B-evidence.json",
+      "reports/antas/vault/00/C-evidence.json",
+      "reports/antas/vault/00/D-evidence.json",
+      "reports/antas/vault/01/A-evidence.json",
+      "reports/antas/vault/01/B-evidence.json",
+      "reports/antas/vault/01/C-evidence.json",
+      "reports/antas/vault/01/D-evidence.json",
+      "reports/antas/vault/02/A-evidence.json",
+      "reports/antas/vault/02/B-evidence.json",
+      "reports/antas/vault/02/C-evidence.json",
+      "reports/antas/vault/02/D-evidence.json",
+      "reports/antas/vault/03/A-evidence.json",
+      "reports/antas/vault/03/B-evidence.json",
+      "reports/antas/vault/03/C-evidence.json",
+      "reports/antas/vault/03/D-evidence.json",
+      "reports/antas/vault/04/A-evidence.json",
+      "reports/antas/vault/04/B-evidence.json",
+      "reports/antas/vault/04/C-evidence.json",
+      "reports/antas/vault/04/D-evidence.json",
+      "reports/antas/vault/05/A-evidence.json",
+      "reports/antas/vault/05/B-evidence.json",
+      "reports/antas/vault/05/C-evidence.json",
+      "reports/antas/vault/05/D-evidence.json",
+      "reports/antas/vault/06/A-evidence.json",
+      "reports/antas/vault/06/B-evidence.json",
+      "reports/antas/vault/06/C-evidence.json",
+      "reports/antas/vault/06/D-evidence.json",
+      "reports/antas/vault/07/A-evidence.json",
+      "reports/antas/vault/07/B-evidence.json",
+      "reports/antas/vault/07/C-evidence.json",
+      "reports/antas/vault/07/D-evidence.json",
+      "reports/antas/vault/08/A-evidence.json",
+      "reports/antas/vault/08/B-evidence.json",
+      "reports/antas/vault/08/C-evidence.json",
+      "reports/antas/vault/08/D-evidence.json",
+      "reports/antas/vault/09/A-evidence.json",
+      "reports/antas/vault/09/B-evidence.json",
+      "reports/antas/vault/09/C-evidence.json",
+      "reports/antas/vault/09/D-evidence.json",
+      "reports/antas/vault/10/A-evidence.json",
+      "reports/antas/vault/10/B-evidence.json",
+      "reports/antas/vault/10/C-evidence.json",
+      "reports/antas/vault/10/D-evidence.json",
+      "reports/antas/vault/11/A-evidence.json",
+      "reports/antas/vault/11/B-evidence.json",
+      "reports/antas/vault/11/C-evidence.json",
+      "reports/antas/vault/11/D-evidence.json",
+      "reports/antas/vault/12/A-evidence.json",
+      "reports/antas/vault/12/B-evidence.json",
+      "reports/antas/vault/12/C-evidence.json",
+      "reports/antas/vault/12/D-evidence.json",
+      "reports/antas/vault/13/A-evidence.json",
+      "reports/antas/vault/13/B-evidence.json",
+      "reports/antas/vault/13/C-evidence.json",
+      "reports/antas/vault/13/D-evidence.json",
+      "reports/antas/vault/14/A-evidence.json",
+      "reports/antas/vault/14/B-evidence.json",
+      "reports/antas/vault/14/C-evidence.json",
+      "reports/antas/vault/14/D-evidence.json",
+      "reports/antas/vault/15/A-evidence.json",
+      "reports/antas/vault/15/B-evidence.json",
+      "reports/antas/vault/15/C-evidence.json",
+      "reports/antas/vault/15/D-evidence.json",
+      "reports/antas/vault/16/A-evidence.json",
+      "reports/antas/vault/16/B-evidence.json",
+      "reports/antas/vault/16/C-evidence.json",
+      "reports/antas/vault/16/D-evidence.json",
+      "reports/antas/vault/17/A-evidence.json",
+      "reports/antas/vault/17/B-evidence.json",
+      "reports/antas/vault/17/C-evidence.json",
+      "reports/antas/vault/17/D-evidence.json",
+      "reports/antas/vault/18/A-evidence.json",
+      "reports/antas/vault/18/B-evidence.json",
+      "reports/antas/vault/18/C-evidence.json",
+      "reports/antas/vault/18/D-evidence.json",
+      "reports/antas/vault/18/capacity-report.json",
+      "reports/antas/vault/19/A-evidence.json",
+      "reports/antas/vault/19/B-evidence.json",
+      "reports/antas/vault/19/C-evidence.json",
+      "reports/antas/vault/19/D-evidence.json",
+      "reports/antas/vault/FINAL-CERTIFICATION.json",
+      "reports/antas/vault/evidence-index.json",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/consumers/entities.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/consumers/test-route-ownership-regression.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/consumers/value-history.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/consumers/vault-health-scan.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/repo-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/routes/vault-entity-links.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/routes/vault-shares.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/routes/vault-snapshot.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/routes/vault.ts",
+      "reports/antas/vault/gap/VLT-GAP-01/baseline/symbol-inventory.pre-extraction.json",
+      "reports/antas/vault/gap/VLT-GAP-01/behavior-regression.json",
+      "reports/antas/vault/gap/VLT-GAP-01/consumer-graph.json",
+      "reports/antas/vault/gap/VLT-GAP-01/duplicate-implementation.json",
+      "reports/antas/vault/gap/VLT-GAP-01/extraction-proof.json",
+      "reports/antas/vault/gap/VLT-GAP-01/gate.json",
+      "reports/antas/vault/gap/VLT-GAP-01/new-source-fingerprint.json",
+      "reports/antas/vault/gap/VLT-GAP-01/old-source-fingerprint.json",
+      "reports/antas/vault/gap/VLT-GAP-01/route-thinness.json",
+      "reports/antas/vault/gap/VLT-GAP-01/security-regression.json",
+      "reports/antas/vault/gap/VLT-GAP-01/symbol-inventory.json",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02c/SEAL.json",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02c/consumers/bulk.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02c/consumers/check-ownership-gate-coverage.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02c/consumers/local-accounts.route.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02c/consumers/value-history.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02c/consumers/vault.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02c/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02d/SEAL.json",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline-02d/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/repo-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/sources/artifacts__api-server__src__routes__local-accounts.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/sources/artifacts__api-server__src__vault__domain__local-account.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/sources/artifacts__ayzen__src__components__local-accounts.tsx",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/sources/artifacts__ayzen__src__config__fields__local-account-buy.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/sources/artifacts__ayzen__src__config__fields__local-account-create.ts",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/symbol-inventory.pre-extraction.json",
+      "reports/antas/vault/gap/VLT-GAP-02/baseline/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-02/behavior-regression.json",
+      "reports/antas/vault/gap/VLT-GAP-02/consumer-graph.json",
+      "reports/antas/vault/gap/VLT-GAP-02/duplicate-implementation.json",
+      "reports/antas/vault/gap/VLT-GAP-02/extraction-proof.json",
+      "reports/antas/vault/gap/VLT-GAP-02/gate.json",
+      "reports/antas/vault/gap/VLT-GAP-02/new-source-fingerprint.json",
+      "reports/antas/vault/gap/VLT-GAP-02/old-source-fingerprint.json",
+      "reports/antas/vault/gap/VLT-GAP-02/route-thinness.json",
+      "reports/antas/vault/gap/VLT-GAP-02/security-regression.json",
+      "reports/antas/vault/gap/VLT-GAP-02/symbol-inventory.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03b/SEAL.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03b/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/SEAL.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/check-ownership-gate-coverage.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/entries.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/exchange-api.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/kyc-data-entities.route.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/kyc-ownership.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/kyc.route.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/projects.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/consumers/test-route-ownership-regression.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03c/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03d/SEAL.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline-03d/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/repo-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__api-server__src__routes__kyc-data-entities.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__api-server__src__routes__kyc.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__api-server__src__vault__domain__kyc.ts",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__components__kyc-entries.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-dashboard.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-data-detail.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-data-list.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-data-overview.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-data-unused.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-data-used.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-detail.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/sources/artifacts__ayzen__src__pages__user__vault-kyc-enrolled.tsx",
+      "reports/antas/vault/gap/VLT-GAP-03/baseline/symbol-inventory.pre-extraction.json",
+      "reports/antas/vault/gap/VLT-GAP-03/behavior-regression.json",
+      "reports/antas/vault/gap/VLT-GAP-03/consumer-graph.json",
+      "reports/antas/vault/gap/VLT-GAP-03/duplicate-implementation.json",
+      "reports/antas/vault/gap/VLT-GAP-03/extraction-proof.json",
+      "reports/antas/vault/gap/VLT-GAP-03/gate.json",
+      "reports/antas/vault/gap/VLT-GAP-03/new-source-fingerprint.json",
+      "reports/antas/vault/gap/VLT-GAP-03/old-source-fingerprint.json",
+      "reports/antas/vault/gap/VLT-GAP-03/route-thinness.json",
+      "reports/antas/vault/gap/VLT-GAP-03/security-regression.json",
+      "reports/antas/vault/gap/VLT-GAP-03/symbol-inventory.json",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04b/SEAL.json",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04b/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/SEAL.json",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/consumers/entries.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/consumers/game-entries.route.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/consumers/game-ownership.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/consumers/game-repository.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/consumers/marketplace-game.route.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/consumers/marketplace-vault.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/consumers/marketplace.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline-04c/tree-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline/repo-manifest.json",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline/sources/artifacts__api-server__src__routes__game-entries.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline/sources/artifacts__api-server__src__routes__marketplace-game.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline/sources/artifacts__api-server__src__vault__domain__game.ts",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline/sources/artifacts__ayzen__src__components__game-entries.tsx",
+      "reports/antas/vault/gap/VLT-GAP-04/baseline/symbol-inventory.pre-extraction.json",
+      "reports/antas/vault/gap/VLT-GAP-04/consumer-graph.json",
+      "reports/antas/vault/gap/VLT-GAP-04/extraction-proof.json",
+      "reports/antas/vault/gap/VLT-GAP-04/symbol-inventory.json",
+      "scripts/antas/vault/build-certification.mjs",
+      "scripts/antas/vault/gap/freeze-vlt-gap-02-C-baseline.mjs",
+      "scripts/antas/vault/gap/freeze-vlt-gap-02-D-baseline.mjs",
+      "scripts/antas/vault/gap/freeze-vlt-gap-03-B-baseline.mjs",
+      "scripts/antas/vault/gap/freeze-vlt-gap-03-C-baseline.mjs",
+      "scripts/antas/vault/gap/freeze-vlt-gap-03-D-baseline.mjs",
+      "scripts/antas/vault/gap/freeze-vlt-gap-04-B-baseline.mjs",
+      "scripts/antas/vault/gap/freeze-vlt-gap-04-C-baseline.mjs",
+      "scripts/antas/vault/gap/gap-common.mjs",
+      "scripts/antas/vault/gap/harness.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-01-A.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-01-B.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-01-C.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-01-D.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-02-A.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-02-B.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-02-C.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-02-D.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-03-A.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-03-B.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-03-C.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-03-D.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-04-A.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-04-B.mjs",
+      "scripts/antas/vault/gap/validate-vlt-gap-04-C.mjs",
+      "scripts/antas/vault/validate-common.mjs",
+      "scripts/antas/vault/validate-vlt-00-a.mjs",
+      "scripts/antas/vault/validate-vlt-00-b.mjs",
+      "scripts/antas/vault/validate-vlt-00-c.mjs",
+      "scripts/antas/vault/validate-vlt-00-d.mjs",
+      "scripts/antas/vault/validate-vlt-01-a.mjs",
+      "scripts/antas/vault/validate-vlt-01-b.mjs",
+      "scripts/antas/vault/validate-vlt-01-c.mjs",
+      "scripts/antas/vault/validate-vlt-01-d.mjs",
+      "scripts/antas/vault/validate-vlt-02-a.mjs",
+      "scripts/antas/vault/validate-vlt-02-b.mjs",
+      "scripts/antas/vault/validate-vlt-02-c.mjs",
+      "scripts/antas/vault/validate-vlt-02-d.mjs",
+      "scripts/antas/vault/validate-vlt-03-a.mjs",
+      "scripts/antas/vault/validate-vlt-03-b.mjs",
+      "scripts/antas/vault/validate-vlt-03-c.mjs",
+      "scripts/antas/vault/validate-vlt-03-d.mjs",
+      "scripts/antas/vault/validate-vlt-04-a.mjs",
+      "scripts/antas/vault/validate-vlt-04-b.mjs",
+      "scripts/antas/vault/validate-vlt-04-c.mjs",
+      "scripts/antas/vault/validate-vlt-04-d.mjs",
+      "scripts/antas/vault/validate-vlt-05-a.mjs",
+      "scripts/antas/vault/validate-vlt-05-b.mjs",
+      "scripts/antas/vault/validate-vlt-05-c.mjs",
+      "scripts/antas/vault/validate-vlt-05-d.mjs",
+      "scripts/antas/vault/validate-vlt-06-a.mjs",
+      "scripts/antas/vault/validate-vlt-06-b.mjs",
+      "scripts/antas/vault/validate-vlt-06-c.mjs",
+      "scripts/antas/vault/validate-vlt-06-d.mjs",
+      "scripts/antas/vault/validate-vlt-07-a.mjs",
+      "scripts/antas/vault/validate-vlt-07-b.mjs",
+      "scripts/antas/vault/validate-vlt-07-c.mjs",
+      "scripts/antas/vault/validate-vlt-07-d.mjs",
+      "scripts/antas/vault/validate-vlt-08-a.mjs",
+      "scripts/antas/vault/validate-vlt-08-b.mjs",
+      "scripts/antas/vault/validate-vlt-08-c.mjs",
+      "scripts/antas/vault/validate-vlt-08-d.mjs",
+      "scripts/antas/vault/validate-vlt-09-a.mjs",
+      "scripts/antas/vault/validate-vlt-09-b.mjs",
+      "scripts/antas/vault/validate-vlt-09-c.mjs",
+      "scripts/antas/vault/validate-vlt-09-d.mjs",
+      "scripts/antas/vault/validate-vlt-10-a.mjs",
+      "scripts/antas/vault/validate-vlt-10-b.mjs",
+      "scripts/antas/vault/validate-vlt-10-c.mjs",
+      "scripts/antas/vault/validate-vlt-10-d.mjs",
+      "scripts/antas/vault/validate-vlt-11-a.mjs",
+      "scripts/antas/vault/validate-vlt-11-b.mjs",
+      "scripts/antas/vault/validate-vlt-11-c.mjs",
+      "scripts/antas/vault/validate-vlt-11-d.mjs",
+      "scripts/antas/vault/validate-vlt-12-a.mjs",
+      "scripts/antas/vault/validate-vlt-12-b.mjs",
+      "scripts/antas/vault/validate-vlt-12-c.mjs",
+      "scripts/antas/vault/validate-vlt-12-d.mjs",
+      "scripts/antas/vault/validate-vlt-13-a.mjs",
+      "scripts/antas/vault/validate-vlt-13-b.mjs",
+      "scripts/antas/vault/validate-vlt-13-c.mjs",
+      "scripts/antas/vault/validate-vlt-13-d.mjs",
+      "scripts/antas/vault/validate-vlt-14-a.mjs",
+      "scripts/antas/vault/validate-vlt-14-b.mjs",
+      "scripts/antas/vault/validate-vlt-14-c.mjs",
+      "scripts/antas/vault/validate-vlt-14-d.mjs",
+      "scripts/antas/vault/validate-vlt-15-a.mjs",
+      "scripts/antas/vault/validate-vlt-15-b.mjs",
+      "scripts/antas/vault/validate-vlt-15-c.mjs",
+      "scripts/antas/vault/validate-vlt-15-d.mjs",
+      "scripts/antas/vault/validate-vlt-16-a.mjs",
+      "scripts/antas/vault/validate-vlt-16-b.mjs",
+      "scripts/antas/vault/validate-vlt-16-c.mjs",
+      "scripts/antas/vault/validate-vlt-16-d.mjs",
+      "scripts/antas/vault/validate-vlt-17-a.mjs",
+      "scripts/antas/vault/validate-vlt-17-b.mjs",
+      "scripts/antas/vault/validate-vlt-17-c.mjs",
+      "scripts/antas/vault/validate-vlt-17-d.mjs",
+      "scripts/antas/vault/validate-vlt-18-a.mjs",
+      "scripts/antas/vault/validate-vlt-18-b.mjs",
+      "scripts/antas/vault/validate-vlt-18-c.mjs",
+      "scripts/antas/vault/validate-vlt-18-d.mjs",
+      "scripts/antas/vault/validate-vlt-19-a.mjs",
+      "scripts/antas/vault/validate-vlt-19-b.mjs",
+      "scripts/antas/vault/validate-vlt-19-c.mjs",
+      "scripts/antas/vault/validate-vlt-19-d.mjs",
+      "scripts/src/reencrypt-vault.ts",
+      "services/vault/README.md",
+      "services/vault/package.json",
+      "services/vault/src/access.mjs",
+      "services/vault/src/api/contracts.mjs",
+      "services/vault/src/api/http-handler.mjs",
+      "services/vault/src/api/index.mjs",
+      "services/vault/src/application/secret-service.mjs",
+      "services/vault/src/contracts.mjs",
+      "services/vault/src/crypto.mjs",
+      "services/vault/src/crypto/envelope.mjs",
+      "services/vault/src/domain.mjs",
+      "services/vault/src/domain/secret.mjs",
+      "services/vault/src/index.mjs",
+      "services/vault/src/infrastructure/dependencies.mjs",
+      "services/vault/src/security/access.mjs",
+      "vault-backup-disaster-recovery-runbook.md"
+    ]
+  },
+  "entityModuleCensus": {
+    "symbolCount": 112,
+    "symbols": [
+      {
+        "symbol": "router",
+        "file": "artifacts/api-server/src/routes/vault-entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listMyVaultActivity",
+        "file": "artifacts/api-server/src/vault/application/entity/activity-feed.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listEntityActivity",
+        "file": "artifacts/api-server/src/vault/application/entity/activity-feed.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "logVaultActivity",
+        "file": "artifacts/api-server/src/vault/application/entity/activity.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "adminListEntities",
+        "file": "artifacts/api-server/src/vault/application/entity/admin.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "adminFullVault",
+        "file": "artifacts/api-server/src/vault/application/entity/admin.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "adminListLocalAccounts",
+        "file": "artifacts/api-server/src/vault/application/entity/admin.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "adminListVaultUsers",
+        "file": "artifacts/api-server/src/vault/application/entity/admin.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "adminGetUserVault",
+        "file": "artifacts/api-server/src/vault/application/entity/admin.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "adminVaultActivityFeed",
+        "file": "artifacts/api-server/src/vault/application/entity/admin.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "getGasOverviewForUser",
+        "file": "artifacts/api-server/src/vault/application/entity/analytics.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "getEntityGas",
+        "file": "artifacts/api-server/src/vault/application/entity/analytics.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "getEntityAnalytics",
+        "file": "artifacts/api-server/src/vault/application/entity/analytics.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "getEntityValueHistory",
+        "file": "artifacts/api-server/src/vault/application/entity/analytics.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityBulkDeps",
+        "file": "artifacts/api-server/src/vault/application/entity/bulk.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "bulkTagEntities",
+        "file": "artifacts/api-server/src/vault/application/entity/bulk.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "bulkActionEntities",
+        "file": "artifacts/api-server/src/vault/application/entity/bulk.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityCreateDeps",
+        "file": "artifacts/api-server/src/vault/application/entity/create.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "createEntity",
+        "file": "artifacts/api-server/src/vault/application/entity/create.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityResult",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityLifecycleDeps",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listEntities",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listTrashedEntities",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "getEntity",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "emptyTrash",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "trashEntity",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "restoreEntity",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "purgeTrashedEntity",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listEntityTags",
+        "file": "artifacts/api-server/src/vault/application/entity/lifecycle.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "LinkResult",
+        "file": "artifacts/api-server/src/vault/application/entity/links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "ownsEntity",
+        "file": "artifacts/api-server/src/vault/application/entity/links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listEntityLinks",
+        "file": "artifacts/api-server/src/vault/application/entity/links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "createEntityLink",
+        "file": "artifacts/api-server/src/vault/application/entity/links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "updateEntityLink",
+        "file": "artifacts/api-server/src/vault/application/entity/links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "deleteEntityLink",
+        "file": "artifacts/api-server/src/vault/application/entity/links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listAllEntityLinks",
+        "file": "artifacts/api-server/src/vault/application/entity/links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "createReceiptLink",
+        "file": "artifacts/api-server/src/vault/application/entity/receipt.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "revokeReceiptLink",
+        "file": "artifacts/api-server/src/vault/application/entity/receipt.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "buildReceiptPdfSpec",
+        "file": "artifacts/api-server/src/vault/application/entity/receipt.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "PublicReceiptResult",
+        "file": "artifacts/api-server/src/vault/application/entity/receipt.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "resolvePublicReceipt",
+        "file": "artifacts/api-server/src/vault/application/entity/receipt.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "formatVaultEntry",
+        "file": "artifacts/api-server/src/vault/application/entity/representation.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityUpdateDeps",
+        "file": "artifacts/api-server/src/vault/application/entity/update.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "updateEntity",
+        "file": "artifacts/api-server/src/vault/application/entity/update.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "updateEntityField",
+        "file": "artifacts/api-server/src/vault/application/entity/update.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listEntityFieldHistory",
+        "file": "artifacts/api-server/src/vault/application/entity/update.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "VAULT_ENTRY_OWNER_SENTINEL_NONE",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "VAULT_ENTITY_LINK_OWNER_SENTINEL_NONE",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "RELATION_TYPES",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "RelationType",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "isRelationType",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "INVERSE_RELATION",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "labelFor",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "invalidVaultEntryResource",
+        "file": "artifacts/api-server/src/vault/domain/entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "ENTITY_GAS_CHAINS",
+        "file": "artifacts/api-server/src/vault/domain/entity/calculations.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "addressesFor",
+        "file": "artifacts/api-server/src/vault/domain/entity/calculations.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "NEW_VAULT_FIELDS",
+        "file": "artifacts/api-server/src/vault/domain/entity/fields.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "BASE_VAULT_FIELDS",
+        "file": "artifacts/api-server/src/vault/domain/entity/fields.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "DATE_FIELDS",
+        "file": "artifacts/api-server/src/vault/domain/entity/fields.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "SINGLE_FIELD_EDITABLE",
+        "file": "artifacts/api-server/src/vault/domain/entity/fields.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "fieldLabel",
+        "file": "artifacts/api-server/src/vault/domain/entity/fields.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "BULK_ALLOWED_STATUSES",
+        "file": "artifacts/api-server/src/vault/domain/entity/fields.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectVault",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectVaultOne",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectAllVaultEntries",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectVaultTrash",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectVaultTrashOne",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "hardDeleteVaultEntry",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "KycDataEntityWrite",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectKycDataEntities",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectKycDataEntityOverview",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "insertKycDataEntity",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "selectKycDataEntityForUser",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "updateKycDataEntity",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "findKycEntryLinkedToDataEntity",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "findVaultEntryLinkedToDataEntity",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "deleteKycDataEntity",
+        "file": "artifacts/api-server/src/vault/infrastructure/repositories/kyc-data-entity-repository.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "vaultEntryResource",
+        "file": "artifacts/api-server/src/vault/security/entity-ownership.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "vaultEntityLinkResource",
+        "file": "artifacts/api-server/src/vault/security/entity-ownership.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "requireVaultEntryOwnership",
+        "file": "artifacts/api-server/src/vault/security/entity-ownership.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "requireVaultEntryOwnershipOr404",
+        "file": "artifacts/api-server/src/vault/security/entity-ownership.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "requireVaultEntityLinkOwnership",
+        "file": "artifacts/api-server/src/vault/security/entity-ownership.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "vaultBulkOwnershipEngine",
+        "file": "artifacts/api-server/src/vault/security/entity-ownership.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "auditVaultBulkOwnership",
+        "file": "artifacts/api-server/src/vault/security/entity-ownership.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "DataEntityPicker",
+        "file": "artifacts/ayzen/src/components/vault/data-entity-picker.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityGasTab",
+        "file": "artifacts/ayzen/src/components/vault/entity-gas-tab.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityPinGate",
+        "file": "artifacts/ayzen/src/components/vault/entity-pin-gate.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "KycEntityEnrollDialog",
+        "file": "artifacts/ayzen/src/components/vault/kyc-entity-enroll-dialog.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "LocalEntityPicker",
+        "file": "artifacts/ayzen/src/components/vault/local-entity-picker.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultEntityType",
+        "file": "artifacts/ayzen/src/components/vault/share-entity-dialog.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "ShareTarget",
+        "file": "artifacts/ayzen/src/components/vault/share-entity-dialog.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "ShareEntityDialog",
+        "file": "artifacts/ayzen/src/components/vault/share-entity-dialog.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "RELATION_TYPES",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "RelationType",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "RELATION_LABELS",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "LinkedEntityRef",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "EntityLink",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "listEntityLinks",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "createEntityLink",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "updateEntityLink",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "deleteEntityLink",
+        "file": "artifacts/ayzen/src/lib/vault-entity-links-api.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultTwoFaEntity",
+        "file": "artifacts/ayzen/src/pages/user/vault-2fa-entity.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultBackupEntity",
+        "file": "artifacts/ayzen/src/pages/user/vault-backup-entity.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultEnrollmentEntity",
+        "file": "artifacts/ayzen/src/pages/user/vault-enrollment-entity.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultEntityAccess",
+        "file": "artifacts/ayzen/src/pages/user/vault-entity-access.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultEntityDashboard",
+        "file": "artifacts/ayzen/src/pages/user/vault-entity-dashboard.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultEntityDetail",
+        "file": "artifacts/ayzen/src/pages/user/vault-entity-detail.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultMailEntityBody",
+        "file": "artifacts/ayzen/src/pages/user/vault-mail-entity.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultMailEntity",
+        "file": "artifacts/ayzen/src/pages/user/vault-mail-entity.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "VaultSharedEntity",
+        "file": "artifacts/ayzen/src/pages/user/vault-shared-entity.tsx",
+        "type": "export"
+      },
+      {
+        "symbol": "vaultEntryResource",
+        "file": "reports/antas/vault/gap/VLT-GAP-01/baseline/routes/vault-entity-links.ts",
+        "type": "export"
+      },
+      {
+        "symbol": "router",
+        "file": "reports/antas/vault/gap/VLT-GAP-01/baseline/routes/vault-entity-links.ts",
+        "type": "export"
+      }
+    ],
+    "boundaries": {
+      "domain": "artifacts/api-server/src/vault/domain/entity-links.ts",
+      "application": "artifacts/api-server/src/vault/application/entity",
+      "infrastructure": "artifacts/api-server/src/vault/infrastructure/repositories/entity-repository.ts",
+      "api": "artifacts/api-server/src/routes/vault-entity-links.ts"
+    }
+  },
+  "hardValidators": {
+    "baselineFileCountValid": true,
+    "baselineHashValid": true,
+    "baselineSymbolManifestValid": true,
+    "baselineConsumerGraphValid": true,
+    "baselineVaultInventoryValid": true,
+    "vlt00A": "PASS",
+    "vlt00B": "PASS",
+    "vlt00C": "PASS",
+    "vlt00D": "PASS",
+    "vlt01A": "PASS",
+    "vlt01B": "PASS",
+    "vlt01C": "PASS",
+    "vlt01D": "PASS"
+  }
+}

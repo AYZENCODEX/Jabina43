@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "roadmap": "ANTAS Vault Modularization",
+  "gate": "VLT-01-B",
+  "status": "PASS",
+  "generatedAt": "2026-10-01T18:25:33.038Z",
+  "checks": [
+    {
+      "name": "required:services/vault/src/index.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:services/vault/src/api/http-handler.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:services/vault/src/api/contracts.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:services/vault/src/application/secret-service.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:services/vault/src/domain/secret.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:services/vault/src/crypto/envelope.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:services/vault/src/security/access.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:services/vault/src/infrastructure/dependencies.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/domain/secret-fields.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/domain/serial.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/domain/entity-links.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/domain/local-account.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/domain/kyc.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/domain/game.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/crypto/field-encryption.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/crypto/seed-phrase.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/application/index.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/infrastructure/index.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/vault/api/index.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "required:artifacts/api-server/src/routes/vault.ts",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "documentation:architecture.md",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "documentation:module-ownership.md",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "roadmap manifest",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "validator source",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "syntax:services/vault/src/index.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "syntax:services/vault/src/crypto/envelope.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "syntax:services/vault/src/security/access.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "syntax:services/vault/src/domain/secret.mjs",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "owned API tree",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "owned application tree",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "name": "owned infrastructure tree",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "failureCount": 0,
+  "evidenceClass": "repository-and-static-compatibility",
+  "limitations": [
+    "Provider-backed staging and production behavior require an environment-specific drill.",
+    "No secret values or plaintext fixtures are stored in evidence."
+  ]
+}
